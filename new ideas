@@ -1,0 +1,9 @@
+This is simply a text file with a list of ideas.. if you have additional ideas that you want to add please submit them. I will create seperate files for each idea as it is added:
+
+- an end-user framework that allows for easy lego-like adaptation of ideas. There are frameworks out there such as WIX but once you pick a preliminary template thats it. I Want to be able to allow someone to setup a black slate and work from there... allowing for specialized scripts where needed etc. 
+  - possible means of implementation woulc be using docker as a backend that dynamically creates a new environment with a "blank slate.. it would allow the users to do whatever they wanted but still confine them to their own "server"
+  
+- Set up a virtual host dimilar to digital ocean using docker or similar to create the servers this way individuals could experiement with multiple servers communicating without having to have a physical server.
+
+- a tool for docker that accepts basic parameters and then spins up one or more containers meeting the indicated specs.
+

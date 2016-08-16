@@ -3,8 +3,16 @@ This is simply a text file with a list of ideas.. if you have additional ideas t
 - an end-user framework that allows for easy lego-like adaptation of ideas. There are frameworks out there such as WIX but once you pick a preliminary template thats it. I Want to be able to allow someone to setup a black slate and work from there... allowing for specialized scripts where needed etc. 
   - possible means of implementation woulc be using docker as a backend that dynamically creates a new environment with a "blank slate.. it would allow the users to do whatever they wanted but still confine them to their own "server"
   
-- Set up a virtual host dimilar to digital ocean using docker or similar to create the servers this way individuals could experiement with multiple servers communicating without having to have a physical server.
+- Set up a virtual host similar to digital ocean using docker or similar to create the servers this way individuals could experiement with multiple servers communicating without having to have a physical server.
 
 - a tool for docker that accepts basic parameters and then spins up one or more containers meeting the indicated specs.
 
 Quality Management System.
+
+Document management system designed to accept docx, xlsx, and pptx files in acontrolled environment. 
+  - tracks authors
+  - tracks approvers
+  - tracks document owners (maybe different than the approver)
+  - mantains a log of modificaitons, and keeps a history of changed files (using GIT or similar?) to  on approval previous live version is marked as archive.This will maintain a trail of documentation for processes andhow they change.
+  - use mysql document store to maintain list of files
+  
